@@ -1,0 +1,41 @@
+package view
+
+import "github.com/oarielg/TarotGo/cards"
+
+templ Read(hand []cards.CardDrawn) {
+    <div class="columns" id="cards">
+    for _, cd := range hand {
+        @MakeCard(cd)
+    }
+    </div>
+}
+
+templ MakeCard(cd cards.CardDrawn) {
+    <div class="column col-4 col-xs-12">
+        <div class="card">
+            <div class="card-image text-center">
+                <img src={ cd.Card.Image } />
+            </div>
+            <div class="card-header">
+                <div class="card-title h5">{ cd.Card.Name }</div>
+                <div class="card-subtitle text-gray">{ cd.Card.Type.String() }
+                if cd.Reversed {
+                    Reversed
+                }
+                </div>
+            </div>
+            <div class="card-body">
+                <p><strong>Description:</strong>
+                if cd.Reversed {
+                    { cd.Card.RDescription }
+                } else {
+                    { cd.Card.Description }
+                }
+                </p>
+                if cd.Card.Message != "" {
+                    <p><strong>Message:</strong> { cd.Card.Message }</p>
+                } 
+            </div>                     
+        </div>
+    </div>
+}
