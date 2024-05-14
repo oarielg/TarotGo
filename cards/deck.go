@@ -58,9 +58,6 @@ func DrawCards(deck []string, num int) []CardDrawn {
 		randomIndex := rand.Intn(len(deck) - 1)
 
 		card := GetCard(deck[randomIndex])
-		if card.Name == "" {
-			panic("empty card")
-		}
 		reversed := rand.Intn(2) == 1
 		drawnCard := CardDrawn{Card: card, Reversed: reversed}
 
