@@ -8,7 +8,7 @@ var cards = map[string]Card{
 		Message:      "keep on the move",
 		Type:         Major,
 		Url:          "the_fool",
-		Image:        "images/00.png",
+		Image:        "../images/00.png",
 	},
 	"the_magician": {
 		Name:         "The Magician",
@@ -17,7 +17,7 @@ var cards = map[string]Card{
 		Message:      "create a new reality",
 		Type:         Major,
 		Url:          "the_magician",
-		Image:        "images/01.png",
+		Image:        "../images/01.png",
 	},
 	"the_high_priestess": {
 		Name:         "The High Priestess",
@@ -26,7 +26,7 @@ var cards = map[string]Card{
 		Message:      "know how to set boundaries",
 		Type:         Major,
 		Url:          "the_high_priestess",
-		Image:        "images/02.png",
+		Image:        "../images/02.png",
 	},
 	"the_empress": {
 		Name:         "The Empress",
@@ -35,7 +35,7 @@ var cards = map[string]Card{
 		Message:      "act from the guts",
 		Type:         Major,
 		Url:          "the_empress",
-		Image:        "images/03.png",
+		Image:        "../images/03.png",
 	},
 	"the_emperor": {
 		Name:         "The Emperor",
@@ -44,7 +44,7 @@ var cards = map[string]Card{
 		Message:      "show leadership and responsibility",
 		Type:         Major,
 		Url:          "the_emperor",
-		Image:        "images/04.png",
+		Image:        "../images/04.png",
 	},
 	"the_pope": {
 		Name:         "The Pope",
@@ -53,7 +53,7 @@ var cards = map[string]Card{
 		Message:      "respect knowledge and education",
 		Type:         Major,
 		Url:          "the_pope",
-		Image:        "images/05.png",
+		Image:        "../images/05.png",
 	},
 	"the_lover": {
 		Name:         "The Lover",
@@ -62,7 +62,7 @@ var cards = map[string]Card{
 		Message:      "follow the path of the heart.",
 		Type:         Major,
 		Url:          "the_lover",
-		Image:        "images/06.png",
+		Image:        "../images/06.png",
 	},
 	"the_chariot": {
 		Name:         "The Chariot",
@@ -71,7 +71,7 @@ var cards = map[string]Card{
 		Message:      "dare and win",
 		Type:         Major,
 		Url:          "the_chariot",
-		Image:        "images/07.png",
+		Image:        "../images/07.png",
 	},
 	"justice": {
 		Name:         "Justice",
@@ -80,7 +80,7 @@ var cards = map[string]Card{
 		Message:      "act with reason and by the accepted norms",
 		Type:         Major,
 		Url:          "justice",
-		Image:        "images/08.png",
+		Image:        "../images/08.png",
 	},
 	"the_hermit": {
 		Name:         "The Hermit",
@@ -89,7 +89,7 @@ var cards = map[string]Card{
 		Message:      "look for the essence of things",
 		Type:         Major,
 		Url:          "the_hermit",
-		Image:        "images/09.png",
+		Image:        "../images/09.png",
 	},
 	"the_wheel_of_fortune": {
 		Name:         "Wheel of Fortune",
@@ -98,7 +98,7 @@ var cards = map[string]Card{
 		Message:      "accept life's ups and downs",
 		Type:         Major,
 		Url:          "the_wheel_of_fortune",
-		Image:        "images/10.png",
+		Image:        "../images/10.png",
 	},
 	"strength": {
 		Name:         "Strength",
@@ -107,7 +107,7 @@ var cards = map[string]Card{
 		Message:      "take control of yourself",
 		Type:         Major,
 		Url:          "strength",
-		Image:        "images/11.png",
+		Image:        "../images/11.png",
 	},
 	"the_hanged_man": {
 		Name:         "The Hanged Man",
@@ -116,7 +116,7 @@ var cards = map[string]Card{
 		Message:      "look at things from the opposite perspective",
 		Type:         Major,
 		Url:          "the_hanged_man",
-		Image:        "images/12.png",
+		Image:        "../images/12.png",
 	},
 	"13": {
 		Name:         "The Death",
@@ -125,7 +125,7 @@ var cards = map[string]Card{
 		Message:      "give up what is over",
 		Type:         Major,
 		Url:          "13",
-		Image:        "images/13.png",
+		Image:        "../images/13.png",
 	},
 	"temperance": {
 		Name:         "Temperance",
@@ -134,7 +134,7 @@ var cards = map[string]Card{
 		Message:      "find the golden mean",
 		Type:         Major,
 		Url:          "temperance",
-		Image:        "images/14.png",
+		Image:        "../images/14.png",
 	},
 	"the_devil": {
 		Name:         "The Devil",
@@ -143,7 +143,7 @@ var cards = map[string]Card{
 		Message:      "express passion and desire.",
 		Type:         Major,
 		Url:          "the_devil",
-		Image:        "images/15.png",
+		Image:        "../images/15.png",
 	},
 	"the_tower": {
 		Name:         "The Tower",
@@ -152,7 +152,7 @@ var cards = map[string]Card{
 		Message:      "return to the solid ground of reality",
 		Type:         Major,
 		Url:          "the_tower",
-		Image:        "images/16.png",
+		Image:        "../images/16.png",
 	},
 	"the_star": {
 		Name:         "The Star",
@@ -161,7 +161,7 @@ var cards = map[string]Card{
 		Message:      "flow from a pure source",
 		Type:         Major,
 		Url:          "the_star",
-		Image:        "images/17.png",
+		Image:        "../images/17.png",
 	},
 	"the_moon": {
 		Name:         "The Moon",
@@ -170,7 +170,7 @@ var cards = map[string]Card{
 		Message:      "don't be afraid to go deep down",
 		Type:         Major,
 		Url:          "the_moon",
-		Image:        "images/18.png",
+		Image:        "../images/18.png",
 	},
 	"the_sun": {
 		Name:         "The Sun",
@@ -179,7 +179,7 @@ var cards = map[string]Card{
 		Message:      "find suitable partners",
 		Type:         Major,
 		Url:          "the_sun",
-		Image:        "images/19.png",
+		Image:        "../images/19.png",
 	},
 	"judgement": {
 		Name:         "Judgement",
@@ -188,7 +188,7 @@ var cards = map[string]Card{
 		Message:      "awaken to spiritual reality",
 		Type:         Major,
 		Url:          "judgement",
-		Image:        "images/20.png",
+		Image:        "../images/20.png",
 	},
 	"the_world": {
 		Name:         "The World",
@@ -197,7 +197,7 @@ var cards = map[string]Card{
 		Message:      "everything is perfect as it is",
 		Type:         Major,
 		Url:          "the_world",
-		Image:        "images/21.png",
+		Image:        "../images/21.png",
 	},
 	"ace_of_clubs": {
 		Name:         "Ace of Clubs",
@@ -206,7 +206,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "ace_of_clubs",
-		Image:        "images/22.png",
+		Image:        "../images/22.png",
 	},
 	"two_of_clubs": {
 		Name:         "Two of Clubs",
@@ -215,7 +215,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "two_of_clubs",
-		Image:        "images/23.png",
+		Image:        "../images/23.png",
 	},
 	"three_of_clubs": {
 		Name:         "Three of Clubs",
@@ -224,7 +224,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "three_of_clubs",
-		Image:        "images/24.png",
+		Image:        "../images/24.png",
 	},
 	"four_of_clubs": {
 		Name:         "Four of Clubs",
@@ -233,7 +233,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "four_of_clubs",
-		Image:        "images/25.png",
+		Image:        "../images/25.png",
 	},
 	"five_of_clubs": {
 		Name:         "Five of Clubs",
@@ -242,7 +242,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "five_of_clubs",
-		Image:        "images/26.png",
+		Image:        "../images/26.png",
 	},
 	"six_of_clubs": {
 		Name:         "Six of Clubs",
@@ -251,7 +251,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "six_of_clubs",
-		Image:        "images/27.png",
+		Image:        "../images/27.png",
 	},
 	"seven_of_clubs": {
 		Name:         "Seven of Clubs",
@@ -260,7 +260,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "seven_of_clubs",
-		Image:        "images/28.png",
+		Image:        "../images/28.png",
 	},
 	"eight_of_clubs": {
 		Name:         "Eight of Clubs",
@@ -269,7 +269,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "eight_of_clubs",
-		Image:        "images/29.png",
+		Image:        "../images/29.png",
 	},
 	"nine_of_clubs": {
 		Name:         "Nine of Clubs",
@@ -278,7 +278,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "nine_of_clubs",
-		Image:        "images/30.png",
+		Image:        "../images/30.png",
 	},
 	"ten_of_clubs": {
 		Name:         "Ten of Clubs",
@@ -287,7 +287,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "ten_of_clubs",
-		Image:        "images/31.png",
+		Image:        "../images/31.png",
 	},
 	"page_of_clubs": {
 		Name:         "Page of Clubs",
@@ -296,7 +296,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "page_of_clubs",
-		Image:        "images/32.png",
+		Image:        "../images/32.png",
 	},
 	"knight_of_clubs": {
 		Name:         "Knight of Clubs",
@@ -305,7 +305,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "knight_of_clubs",
-		Image:        "images/33.png",
+		Image:        "../images/33.png",
 	},
 	"queen_of_clubs": {
 		Name:         "Queen of Clubs",
@@ -314,7 +314,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "queen_of_clubs",
-		Image:        "images/34.png",
+		Image:        "../images/34.png",
 	},
 	"king_of_clubs": {
 		Name:         "King of Clubs",
@@ -323,7 +323,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "king_of_clubs",
-		Image:        "images/35.png",
+		Image:        "../images/35.png",
 	},
 	"ace_of_cups": {
 		Name:         "Ace of Cups",
@@ -332,7 +332,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "ace_of_cups",
-		Image:        "images/36.png",
+		Image:        "../images/36.png",
 	},
 	"two_of_cups": {
 		Name:         "Two of Cups",
@@ -341,7 +341,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "two_of_cups",
-		Image:        "images/37.png",
+		Image:        "../images/37.png",
 	},
 	"three_of_cups": {
 		Name:         "Three of Cups",
@@ -350,7 +350,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "three_of_cups",
-		Image:        "images/38.png",
+		Image:        "../images/38.png",
 	},
 	"four_of_cups": {
 		Name:         "Four of Cups",
@@ -359,7 +359,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "four_of_cups",
-		Image:        "images/39.png",
+		Image:        "../images/39.png",
 	},
 	"five_of_cups": {
 		Name:         "Five of Cups",
@@ -368,7 +368,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "five_of_cups",
-		Image:        "images/40.png",
+		Image:        "../images/40.png",
 	},
 	"six_of_cups": {
 		Name:         "Six of Cups",
@@ -377,7 +377,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "six_of_cups",
-		Image:        "images/41.png",
+		Image:        "../images/41.png",
 	},
 	"seven_of_cups": {
 		Name:         "Seven of Cups",
@@ -386,7 +386,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "seven_of_cups",
-		Image:        "images/42.png",
+		Image:        "../images/42.png",
 	},
 	"eight_of_cups": {
 		Name:         "Eight of Cups",
@@ -395,7 +395,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "eight_of_cups",
-		Image:        "images/43.png",
+		Image:        "../images/43.png",
 	},
 	"nine_of_cups": {
 		Name:         "Nine of Cups",
@@ -404,7 +404,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "nine_of_cups",
-		Image:        "images/44.png",
+		Image:        "../images/44.png",
 	},
 	"ten_of_cups": {
 		Name:         "Ten of Cups",
@@ -413,7 +413,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "ten_of_cups",
-		Image:        "images/45.png",
+		Image:        "../images/45.png",
 	},
 	"page_of_cups": {
 		Name:         "Page of Cups",
@@ -422,7 +422,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "page_of_cups",
-		Image:        "images/46.png",
+		Image:        "../images/46.png",
 	},
 	"knight_of_cups": {
 		Name:         "Knight of Cups",
@@ -431,7 +431,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "knight_of_cups",
-		Image:        "images/47.png",
+		Image:        "../images/47.png",
 	},
 	"queen_of_cups": {
 		Name:         "Queen of Cups",
@@ -440,7 +440,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "queen_of_cups",
-		Image:        "images/48.png",
+		Image:        "../images/48.png",
 	},
 	"king_of_cups": {
 		Name:         "King of Cups",
@@ -449,7 +449,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "king_of_cups",
-		Image:        "images/49.png",
+		Image:        "../images/49.png",
 	},
 	"ace_of_swords": {
 		Name:         "Ace of Swords",
@@ -458,7 +458,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "ace_of_swords",
-		Image:        "images/50.png",
+		Image:        "../images/50.png",
 	},
 	"two_of_swords": {
 		Name:         "Two of Swords",
@@ -467,7 +467,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "two_of_swords",
-		Image:        "images/51.png",
+		Image:        "../images/51.png",
 	},
 	"three_of_swords": {
 		Name:         "Three of Swords",
@@ -476,7 +476,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "three_of_swords",
-		Image:        "images/52.png",
+		Image:        "../images/52.png",
 	},
 	"four_of_swords": {
 		Name:         "Four of Swords",
@@ -485,7 +485,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "four_of_swords",
-		Image:        "images/53.png",
+		Image:        "../images/53.png",
 	},
 	"five_of_swords": {
 		Name:         "Five of Swords",
@@ -494,7 +494,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "five_of_swords",
-		Image:        "images/54.png",
+		Image:        "../images/54.png",
 	},
 	"six_of_swords": {
 		Name:         "Six of Swords",
@@ -503,7 +503,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "six_of_swords",
-		Image:        "images/55.png",
+		Image:        "../images/55.png",
 	},
 	"seven_of_swords": {
 		Name:         "Seven of Swords",
@@ -512,7 +512,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "seven_of_swords",
-		Image:        "images/56.png",
+		Image:        "../images/56.png",
 	},
 	"eight_of_swords": {
 		Name:         "Eight of Swords",
@@ -521,7 +521,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "eight_of_swords",
-		Image:        "images/57.png",
+		Image:        "../images/57.png",
 	},
 	"nine_of_swords": {
 		Name:         "Nine of Swords",
@@ -530,7 +530,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "nine_of_swords",
-		Image:        "images/58.png",
+		Image:        "../images/58.png",
 	},
 	"ten_of_swords": {
 		Name:         "Ten of Swords",
@@ -539,7 +539,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "ten_of_swords",
-		Image:        "images/59.png",
+		Image:        "../images/59.png",
 	},
 	"page_of_swords": {
 		Name:         "Page of Swords",
@@ -548,7 +548,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "page_of_swords",
-		Image:        "images/60.png",
+		Image:        "../images/60.png",
 	},
 	"knight_of_swords": {
 		Name:         "Knight of Swords",
@@ -557,7 +557,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "knight_of_swords",
-		Image:        "images/61.png",
+		Image:        "../images/61.png",
 	},
 	"queen_of_swords": {
 		Name:         "Queen of Swords",
@@ -566,7 +566,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "queen_of_swords",
-		Image:        "images/62.png",
+		Image:        "../images/62.png",
 	},
 	"king_of_swords": {
 		Name:         "King of Swords",
@@ -575,7 +575,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "king_of_swords",
-		Image:        "images/63.png",
+		Image:        "../images/63.png",
 	},
 	"ace_of_coins": {
 		Name:         "Ace of Coins",
@@ -584,7 +584,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "ace_of_coins",
-		Image:        "images/64.png",
+		Image:        "../images/64.png",
 	},
 	"two_of_coins": {
 		Name:         "Two of Coins",
@@ -593,7 +593,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "two_of_coins",
-		Image:        "images/65.png",
+		Image:        "../images/65.png",
 	},
 	"three_of_coins": {
 		Name:         "Three of Coins",
@@ -602,7 +602,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "three_of_coins",
-		Image:        "images/66.png",
+		Image:        "../images/66.png",
 	},
 	"four_of_coins": {
 		Name:         "Four of Coins",
@@ -611,7 +611,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "four_of_coins",
-		Image:        "images/67.png",
+		Image:        "../images/67.png",
 	},
 	"five_of_coins": {
 		Name:         "Five of Coins",
@@ -620,7 +620,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "five_of_coins",
-		Image:        "images/68.png",
+		Image:        "../images/68.png",
 	},
 	"six_of_coins": {
 		Name:         "Six of Coins",
@@ -629,7 +629,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "six_of_coins",
-		Image:        "images/69.png",
+		Image:        "../images/69.png",
 	},
 	"seven_of_coins": {
 		Name:         "Seven of Coins",
@@ -638,7 +638,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "seven_of_coins",
-		Image:        "images/70.png",
+		Image:        "../images/70.png",
 	},
 	"eight_of_coins": {
 		Name:         "Eight of Coins",
@@ -647,7 +647,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "eight_of_coins",
-		Image:        "images/71.png",
+		Image:        "../images/71.png",
 	},
 	"nine_of_coins": {
 		Name:         "Nine of Coins",
@@ -656,7 +656,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "nine_of_coins",
-		Image:        "images/72.png",
+		Image:        "../images/72.png",
 	},
 	"ten_of_coins": {
 		Name:         "Ten of Coins",
@@ -665,7 +665,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "ten_of_coins",
-		Image:        "images/73.png",
+		Image:        "../images/73.png",
 	},
 	"page_of_coins": {
 		Name:         "Page of Coins",
@@ -674,7 +674,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "page_of_coins",
-		Image:        "images/74.png",
+		Image:        "../images/74.png",
 	},
 	"knight_of_coins": {
 		Name:         "Knight of Coins",
@@ -683,7 +683,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "knight_of_coins",
-		Image:        "images/75.png",
+		Image:        "../images/75.png",
 	},
 	"queen_of_coins": {
 		Name:         "Queen of Coins",
@@ -692,7 +692,7 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "queen_of_coins",
-		Image:        "images/76.png",
+		Image:        "../images/76.png",
 	},
 	"king_of_coins": {
 		Name:         "King of Coins",
@@ -701,6 +701,6 @@ var cards = map[string]Card{
 		Message:      "",
 		Type:         Minor,
 		Url:          "king_of_coins",
-		Image:        "images/77.png",
+		Image:        "../images/77.png",
 	},
 }

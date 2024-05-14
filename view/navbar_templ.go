@@ -10,7 +10,7 @@ import "context"
 import "io"
 import "bytes"
 
-func Index() templ.Component {
+func Navbar() templ.Component {
 	return templ.ComponentFunc(func(ctx context.Context, templ_7745c5c3_W io.Writer) (templ_7745c5c3_Err error) {
 		templ_7745c5c3_Buffer, templ_7745c5c3_IsBuffer := templ_7745c5c3_W.(*bytes.Buffer)
 		if !templ_7745c5c3_IsBuffer {
@@ -23,11 +23,7 @@ func Index() templ.Component {
 			templ_7745c5c3_Var1 = templ.NopComponent
 		}
 		ctx = templ.ClearChildren(ctx)
-		templ_7745c5c3_Err = Navbar().Render(ctx, templ_7745c5c3_Buffer)
-		if templ_7745c5c3_Err != nil {
-			return templ_7745c5c3_Err
-		}
-		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<div class=\"hero hero-sm bg-dark\"><div class=\"hero-body text-center\"><h1>TarotGo</h1><h2>A very simple Tarot Reader!</h2><p class=\"text-gray\">Concentrate for a few seconds and then think about your question.<br>Once you're ready, click the button below to draw three cards to get your response from the Tarot.</p><button class=\"btn btn-primary\" hx-get=\"/read\" hx-trigger=\"click\" hx-target=\"#cards\" hx-swap=\"outerHTML\">Draw 3 Cards</button></div></div><div class=\"section section-updates bg-gray\"><div class=\"container grid-lg\"><div class=\"columns\" id=\"cards\"></div></div></div>")
+		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<header class=\"navbar\"><section class=\"navbar-section\"><a href=\"/\" class=\"btn btn-link\">Read</a> <a href=\"/cards\" class=\"btn btn-link\">Cards</a></section><section class=\"navbar-center\"><h3>TarotGo</h3></section><section class=\"navbar-section\"><a href=\"https://github.com/oarielg/TarotGo\" class=\"btn btn-link\">GitHub</a></section></header>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

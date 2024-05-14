@@ -1,0 +1,14 @@
+package view
+
+import "github.com/oarielg/TarotGo/cards"
+
+templ Card(cd cards.CardDrawn) {
+@Navbar()
+<div class="section section-updates bg-gray">
+    <div class="container grid-lg">
+        <div class="columns text-center">
+            @MakeCard(cd, true)
+        </div>
+    </div>
+</div>
+}

@@ -10,7 +10,9 @@ import "context"
 import "io"
 import "bytes"
 
-func Index() templ.Component {
+import "github.com/oarielg/TarotGo/cards"
+
+func Card(cd cards.CardDrawn) templ.Component {
 	return templ.ComponentFunc(func(ctx context.Context, templ_7745c5c3_W io.Writer) (templ_7745c5c3_Err error) {
 		templ_7745c5c3_Buffer, templ_7745c5c3_IsBuffer := templ_7745c5c3_W.(*bytes.Buffer)
 		if !templ_7745c5c3_IsBuffer {
@@ -27,7 +29,15 @@ func Index() templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<div class=\"hero hero-sm bg-dark\"><div class=\"hero-body text-center\"><h1>TarotGo</h1><h2>A very simple Tarot Reader!</h2><p class=\"text-gray\">Concentrate for a few seconds and then think about your question.<br>Once you're ready, click the button below to draw three cards to get your response from the Tarot.</p><button class=\"btn btn-primary\" hx-get=\"/read\" hx-trigger=\"click\" hx-target=\"#cards\" hx-swap=\"outerHTML\">Draw 3 Cards</button></div></div><div class=\"section section-updates bg-gray\"><div class=\"container grid-lg\"><div class=\"columns\" id=\"cards\"></div></div></div>")
+		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<div class=\"section section-updates bg-gray\"><div class=\"container grid-lg\"><div class=\"columns text-center\">")
+		if templ_7745c5c3_Err != nil {
+			return templ_7745c5c3_Err
+		}
+		templ_7745c5c3_Err = MakeCard(cd, true).Render(ctx, templ_7745c5c3_Buffer)
+		if templ_7745c5c3_Err != nil {
+			return templ_7745c5c3_Err
+		}
+		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("</div></div></div>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

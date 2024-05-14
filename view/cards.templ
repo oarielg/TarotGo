@@ -1,0 +1,34 @@
+package view
+
+import "github.com/oarielg/TarotGo/cards"
+import "fmt"
+
+templ Cards(deck map[string]cards.Card) {
+@Navbar()
+<div class="section section-updates bg-gray">
+    <div class="container grid-lg">
+        <div class="columns text-center">
+            @MakeCardsTable(deck)
+        </div>
+    </div>
+</div>
+}
+
+templ MakeCardsTable(deck map[string]cards.Card) {
+<table class="table">
+    <thead>
+    <tr>
+        <th>card</th>
+        <th>link</th>
+    </tr>
+    </thead>
+    <tbody>
+        for _, card := range deck {
+            <tr>
+                <td>{ card.Name }</td>
+                <td><a href={ templ.URL(fmt.Sprintf("../card/%s", card.Url)) }>see&gt;</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+}

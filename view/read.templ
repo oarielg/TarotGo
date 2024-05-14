@@ -5,13 +5,13 @@ import "github.com/oarielg/TarotGo/cards"
 templ Read(hand []cards.CardDrawn) {
     <div class="columns" id="cards">
     for _, cd := range hand {
-        @MakeCard(cd)
+        @MakeCard(cd, false)
     }
     </div>
 }
 
-templ MakeCard(cd cards.CardDrawn) {
-    <div class="column col-4 col-xs-12">
+templ MakeCard(cd cards.CardDrawn, single bool) {
+    <div class={ "column col-xs-12", templ.KV("col-12", single), templ.KV("col-4", !single) }>
         <div class="card">
             <div class="card-image text-center">
                 <img src={ cd.Card.Image } />

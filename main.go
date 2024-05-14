@@ -15,6 +15,8 @@ func main() {
 
 	e.GET("/", controller.IndexHandler)
 	e.GET("/read", controller.ReadHandler)
+	e.GET("/cards", controller.CardsHandler)
+	e.GET("/card/:id", controller.CardHandler)
 
 	e.Logger.Fatal(e.Start(":8090"))
 }

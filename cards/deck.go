@@ -74,3 +74,7 @@ func GetCard(s string) Card {
 	}
 	return Card{}
 }
+
+func AllCards() map[string]Card {
+	return cards
+}
